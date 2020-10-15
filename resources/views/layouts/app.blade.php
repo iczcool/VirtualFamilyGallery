@@ -21,8 +21,6 @@
           </section><!-- End Breadcrumbs -->
           <section id="" class="">
                 @yield('content')
-              <!-- </div>
-            </div> -->
           </section>
         </main>
         @include('includes.footer')

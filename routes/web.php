@@ -39,6 +39,10 @@ Route::get('/test', function () {
 // })->name('home');
 
 
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
 
 
 //======ALL ALBUM ROUTES=======
